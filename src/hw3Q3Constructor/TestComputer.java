@@ -3,16 +3,15 @@ package hw3Q3Constructor;
 
 public class TestComputer {
 public static void main(String[]args) {
-	Computer object= new Computer();
-	object. Brand= "Apple";
-	object. Model= "MacBook Air";
-	object. OperatingSystem="MacOS Mojava";
-	object. price= 800;
-	object. grade='C';
-	object. madeINUSA= false;
-	
-	
-
+	new Computer();
+	System.out.println("*****************");
+    new Computer("Apple","MacBook Air","MacOs Mojave", 800, 'C', false);
+    System.out.println("*****************");
+    new Computer("Windows","Windows 10","Microsoft Windows",900,'B',true);
+    System.out.println("******************");
+    new Computer("Linux","Ubuntu","Linux kernel");
+    System.out.println("****************");
+    new Computer("Apple","MacBook Pro","MacOs Sierra", 600, 'E');
 	
 }
 
