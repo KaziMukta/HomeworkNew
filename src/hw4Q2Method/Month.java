@@ -51,6 +51,9 @@ public class Month {
 		case "December":
 			System.out.println("I borned in December");
 			break;
+		
+//		default to print:
+		
 		default:
 			System.out.println("Not Found");
 			break;

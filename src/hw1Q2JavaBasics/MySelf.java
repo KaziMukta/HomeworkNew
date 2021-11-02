@@ -6,7 +6,7 @@ Class starts with upper case.
 */
 
 public class MySelf {
-//	Main method is entry point of java. Its always static.
+//	main method is entry point of java. its always static.
 	public static void main(String[] args) {
 		System.out.println("\tHi this is Kazi Mukta." + "\n\tI am interested to learn coading ");
 	}
