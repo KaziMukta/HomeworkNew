@@ -31,6 +31,9 @@ public class CompareAge {
 		 System.out.println("Alex is"+ageOfAlex+"which is an even number and they are the same age or (Alex may be younger)."+ageOfJenifer+", the age of Jenifer.");
 	 }else if((ageOfAlex%2==1) && (ageOfAlex==ageOfJenifer)) {
 		 System.out.println("Alex is "+ageOfAlex+" which is an odd number and they are the same  age"+ageOfJenifer+", the age of Jenifer.");
-	 } 	
+	  	 
+	 }else {
+		 System.out.println("Not found");
+	 }
 }	
 }
