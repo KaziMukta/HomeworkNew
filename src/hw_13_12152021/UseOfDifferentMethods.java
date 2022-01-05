@@ -1,4 +1,5 @@
 package hw_13_12152021;
+/* Also use isDisplayed(), isEnabled(), isSelected(), getTitle(), getCurrentUrl(), getText(), sendKeys() methods for the existing work in HW 13. You can also choose more than one url to see those actions. Please push it to github*/
 import org.openqa.selenium.By;
 /*03) Use testNG annotation to create method to run an URL. Also use maximize(), fullscreen(), deleteAllCookies(), get (), sleep(), click(), quit() methods for your chosen URL. You can also choose more than one url to see those actions. Please push it to github*/
 import org.openqa.selenium.WebDriver;
@@ -32,16 +33,14 @@ public class UseOfDifferentMethods {
 		Thread.sleep(3000);
 	}
 	@Test(priority = 5)
-	public void clickMethod() {
+	public void clickMethod() throws InterruptedException {
 		driver.findElement(By.xpath("(//button[@class='jsx-1441356085 lm-ClickDropdown--button'])[1]")).click();
 	}
 	
-	@Test(priority = 6)
-	public void quitMethod() {
+	@AfterTest
+	public void tearUp() {
 		driver.quit();
-		
 	}
-	
 	
 	
 
